@@ -87,16 +87,11 @@ body{
 }
 .picture img{
     position: relative;
-    height: 160px;
+    height: 155px;
     width: auto;
     border-radius: 5%;
     top: 5px;
     left: 0px;
-}
-.picture small{
-    position: relative;
-    width: auto;
-    top: 5px;
 }
 .header{
     margin:0 auto;
