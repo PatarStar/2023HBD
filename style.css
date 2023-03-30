@@ -87,12 +87,22 @@ body{
 }
 .picture img{
     position: relative;
-    height: 155px;
+    height: 160px;
     width: auto;
     border-radius: 5%;
     top: 5px;
     left: 0px;
 }
+
+.rec img{
+    position: relative;
+    height: 150px;
+    width: auto;
+    border-radius: 5%;
+    top: 5px;
+    left: 0px;
+}
+
 .header{
     margin:0 auto;
     width: 400px;
