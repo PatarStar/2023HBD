@@ -7,6 +7,14 @@ $(function () {
         alert("麵包超人啦！");
     });
 
+    $(".bird").on('click', function(){
+        alert("努估誰呦？");
+    });
+
+    $(".hair").on('click', function(){
+        alert("瓜皮啦QQ");
+    });
+
     $(".cake").on('click', function(){
         alert("草莓蛋糕屁股啦！");
     });
@@ -117,11 +125,15 @@ $(function () {
 
     $("#27").on('click',  function(){
         $("#t27").toggle();
+    });
+
+    $("#28").on('click',  function(){
+        $("#t28").toggle();
         $(".birthday").toggle();
     });
 
-    $("#t27").on('click',  function(){
-        $("#t27").toggle();
+    $("#t28").on('click',  function(){
+        $("#t28").toggle();
         $(".birthday").toggle();
     });
 });
